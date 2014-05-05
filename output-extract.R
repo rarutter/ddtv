@@ -32,7 +32,7 @@ parser$add_argument('--generated-files-dir',
                     default='output-extract-generated-files', metavar='DIRNAME',
                     help=h)
                     
-parser$add_argument('--run-mode', default='eq', metavar='M', nargs='+',
+parser$add_argument('--run-mode', default='all', metavar='M', nargs='+',
                     #choices=('eq','sp','tr','sc','all'),  # broken?
                     help='Which run mode(s) you are processing. (default: eq)')
 
